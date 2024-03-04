@@ -506,6 +506,7 @@ class LockStatusType(str, ValuesEnumMixin, enum.Enum):
 class PermissionNode(str, enum.Enum):
     CREATE = "create"
     READ = "read"
+    READ_LIVE = "readlive"
     WRITE = "write"
     DELETE = "delete"
     READ_MEDIA = "readmedia"
